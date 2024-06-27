@@ -1,0 +1,97 @@
+[2024-06-27T15:08:02.229] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2024-06-27T15:08:02.394] [DEBUG] debug-file - env: daemon=true
+[2024-06-27T15:08:02.233] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2024-06-27T15:08:04.050] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: true,
+  _: [ '--analyze=normal' ]
+}
+[2024-06-27T15:08:04.058] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED ::1:45050
+[2024-06-27T15:08:04.069] [DEBUG] debug-file - java daemon started at port 45050 pid 84160
+[2024-06-27T15:08:04.137] [DEBUG] debug-file - session manager: set active socket. socketId=xgBXZZ9ztAJa5gfdAAAB
+[2024-06-27T15:08:05.758] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-06-27T15:08:05.761] [DEBUG] debug-file - Since current hvigor version 5.2.2 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2024-06-27T15:08:05.765] [DEBUG] debug-file - Cache service initialization finished in 7 ms 
+[2024-06-27T15:08:05.789] [DEBUG] debug-file - hvigorfile, resolving D:\Desk\musicS\music\hvigorfile.ts
+[2024-06-27T15:08:10.164] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2024-06-27T15:08:10.165] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2024-06-27T15:08:10.383] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-06-27T15:08:10.383] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-06-27T15:08:10.384] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-06-27T15:08:10.384] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-06-27T15:08:10.396] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-06-27T15:08:10.399] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2024-06-27T15:08:10.407] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native
+[2024-06-27T15:08:10.413] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2024-06-27T15:08:10.423] [DEBUG] debug-file - Sdk init in 21 ms 
+[2024-06-27T15:08:10.444] [DEBUG] debug-file - Project task initialization takes 19 ms 
+[2024-06-27T15:08:10.444] [DEBUG] debug-file - hvigorfile, resolve finished D:\Desk\musicS\music\hvigorfile.ts
+[2024-06-27T15:08:10.449] [DEBUG] debug-file - hvigorfile, resolving D:\Desk\musicS\music\entry\hvigorfile.ts
+[2024-06-27T15:08:10.454] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2024-06-27T15:08:10.454] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2024-06-27T15:08:10.462] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-06-27T15:08:10.462] [DEBUG] debug-file - Target 'default' config: {}
+[2024-06-27T15:08:10.463] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-06-27T15:08:10.463] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-06-27T15:08:10.463] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true
+}
+[2024-06-27T15:08:10.463] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-06-27T15:08:10.463] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-06-27T15:08:10.469] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2024-06-27T15:08:10.469] [DEBUG] debug-file - hvigorfile, resolve finished D:\Desk\musicS\music\entry\hvigorfile.ts
+[2024-06-27T15:08:10.585] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 116 ms 
+[2024-06-27T15:08:10.586] [DEBUG] debug-file - project has submodules:entry
+[2024-06-27T15:08:10.597] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-06-27T15:08:10.650] [DEBUG] debug-file - load to the disk finished
+[2024-06-27T15:08:10.667] [DEBUG] debug-file - Module music Collected Dependency: 
+[2024-06-27T15:08:10.667] [DEBUG] debug-file - Module music's total dependency: 0
+[2024-06-27T15:08:10.677] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2024-06-27T15:08:10.677] [DEBUG] debug-file - Module entry's total dependency: 0
+[2024-06-27T15:08:10.685] [DEBUG] debug-file - Configuration phase cost:4 s 911 ms 
+[2024-06-27T15:08:10.690] [DEBUG] debug-file - Configuration task cost before running: 4 s 946 ms 
+[2024-06-27T15:08:10.704] [DEBUG] debug-file - Executing task :entry:clean
+[2024-06-27T15:08:10.704] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-06-27T15:08:10.912] [DEBUG] debug-file - entry : clean cost memory 1.435577392578125
+[2024-06-27T15:08:10.912] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 168 ms 
+[2024-06-27T15:08:10.912] [INFO] debug-file - Finished :entry:clean... after 209 ms 
+[2024-06-27T15:08:10.912] [DEBUG] debug-file - Executing task ::clean
+[2024-06-27T15:08:10.912] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-06-27T15:08:10.913] [DEBUG] debug-file - music : clean cost memory 0.03247833251953125
+[2024-06-27T15:08:10.913] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 169 ms 
+[2024-06-27T15:08:10.913] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2024-06-27T15:08:10.913] [DEBUG] debug-file - Executing task :entry:init
+[2024-06-27T15:08:10.913] [DEBUG] debug-file - entry : init cost memory 0.0135955810546875
+[2024-06-27T15:08:10.913] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 170 ms 
+[2024-06-27T15:08:10.914] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2024-06-27T15:08:10.914] [DEBUG] debug-file - Executing task ::init
+[2024-06-27T15:08:10.914] [DEBUG] debug-file - music : init cost memory 0.012359619140625
+[2024-06-27T15:08:10.914] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 171 ms 
+[2024-06-27T15:08:10.914] [INFO] debug-file - Finished ::init... after 1 ms 
+[2024-06-27T15:08:10.937] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-06-27T15:08:10.946] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true
+} in this build.
